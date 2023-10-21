@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js" defer></script>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <div class="library"><img src="book-read-library-study-line-icon-illustration-logo-template-suitable-for-many-purposes-free-vector.jpg" alt="">Library</div>
+        <button data-open-modal>+ Add books</button>
+    </div>
+
+    <div class="dialog">
+        <dialog data-modal class="modal">
+            <form>
+                <input class = "info" type="text" placeholder="Title"  id="title">
+                <input class = "info" type="text" placeholder="Author" required>
+                <input class = "info" type="number" placeholder="Number of pages">
+                <label for="number" class="info">read the book
+                    <input type="checkbox"  required>
+                </label>
+                <button  data-close-modal class="close info">Close </button>
+                <button class = "info" type="submit" > Submit</button>
+            </form>
+        </dialog>
+    </div> 
+
+
+</body>
+
+</html>
